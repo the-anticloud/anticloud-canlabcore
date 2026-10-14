@@ -1,0 +1,193 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:4f47c635-9ceb-5912-bfe6-fc4f0a30c467",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-12T05:37:12Z",
+    "component": {
+      "type": "application",
+      "name": "CANLABCORE",
+      "version": "21a490fb89ac",
+      "bom-ref": "pkg:generic/anticloud/CANLABCORE@21a490fb89ac",
+      "purl": "pkg:generic/anticloud/CANLABCORE@21a490fb89ac",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "21a490fb89acee54baca06dd0ca04a2297659e97"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": ""
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "acres",
+      "version": ">=",
+      "purl": "pkg:pypi/acres@",
+      "bom-ref": "pypi/acres@>="
+    },
+    {
+      "type": "library",
+      "name": "looseversion",
+      "version": ">=",
+      "purl": "pkg:pypi/looseversion@",
+      "bom-ref": "pypi/looseversion@>="
+    },
+    {
+      "type": "library",
+      "name": "nibabel",
+      "version": ">=",
+      "purl": "pkg:pypi/nibabel@",
+      "bom-ref": "pypi/nibabel@>="
+    },
+    {
+      "type": "library",
+      "name": "nipype",
+      "version": ">=",
+      "purl": "pkg:pypi/nipype@",
+      "bom-ref": "pypi/nipype@>="
+    },
+    {
+      "type": "library",
+      "name": "nireports",
+      "version": ">=",
+      "purl": "pkg:pypi/nireports@",
+      "bom-ref": "pypi/nireports@>="
+    },
+    {
+      "type": "library",
+      "name": "nitime",
+      "version": ">=",
+      "purl": "pkg:pypi/nitime@",
+      "bom-ref": "pypi/nitime@>="
+    },
+    {
+      "type": "library",
+      "name": "nitransforms",
+      "version": ">=",
+      "purl": "pkg:pypi/nitransforms@",
+      "bom-ref": "pypi/nitransforms@>="
+    },
+    {
+      "type": "library",
+      "name": "niworkflows",
+      "version": ">=",
+      "purl": "pkg:pypi/niworkflows@",
+      "bom-ref": "pypi/niworkflows@>="
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": ">=",
+      "purl": "pkg:pypi/numpy@",
+      "bom-ref": "pypi/numpy@>="
+    },
+    {
+      "type": "library",
+      "name": "packaging",
+      "version": ">=",
+      "purl": "pkg:pypi/packaging@",
+      "bom-ref": "pypi/packaging@>="
+    },
+    {
+      "type": "library",
+      "name": "pandas",
+      "version": ">=",
+      "purl": "pkg:pypi/pandas@",
+      "bom-ref": "pypi/pandas@>="
+    },
+    {
+      "type": "library",
+      "name": "psutil",
+      "version": ">=",
+      "purl": "pkg:pypi/psutil@",
+      "bom-ref": "pypi/psutil@>="
+    },
+    {
+      "type": "library",
+      "name": "pybids",
+      "version": ">=",
+      "purl": "pkg:pypi/pybids@",
+      "bom-ref": "pypi/pybids@>="
+    },
+    {
+      "type": "library",
+      "name": "requests",
+      "version": ">=",
+      "purl": "pkg:pypi/requests@",
+      "bom-ref": "pypi/requests@>="
+    },
+    {
+      "type": "library",
+      "name": "sdcflows",
+      "version": ">=",
+      "purl": "pkg:pypi/sdcflows@",
+      "bom-ref": "pypi/sdcflows@>="
+    },
+    {
+      "type": "library",
+      "name": "smriprep",
+      "version": "@",
+      "purl": "pkg:pypi/smriprep@@",
+      "bom-ref": "pypi/smriprep@@"
+    },
+    {
+      "type": "library",
+      "name": "tedana",
+      "version": ">=",
+      "purl": "pkg:pypi/tedana@",
+      "bom-ref": "pypi/tedana@>="
+    },
+    {
+      "type": "library",
+      "name": "templateflow",
+      "version": ">=",
+      "purl": "pkg:pypi/templateflow@",
+      "bom-ref": "pypi/templateflow@>="
+    },
+    {
+      "type": "library",
+      "name": "transforms3d",
+      "version": ">=",
+      "purl": "pkg:pypi/transforms3d@",
+      "bom-ref": "pypi/transforms3d@>="
+    },
+    {
+      "type": "library",
+      "name": "toml",
+      "version": ">=",
+      "purl": "pkg:pypi/toml@",
+      "bom-ref": "pypi/toml@>="
+    },
+    {
+      "type": "library",
+      "name": "codecarbon",
+      "version": ">=",
+      "purl": "pkg:pypi/codecarbon@",
+      "bom-ref": "pypi/codecarbon@>="
+    },
+    {
+      "type": "library",
+      "name": "APScheduler",
+      "version": ">=",
+      "purl": "pkg:pypi/apscheduler@",
+      "bom-ref": "pypi/APScheduler@>="
+    }
+  ]
+}
