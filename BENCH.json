@@ -2,13 +2,11 @@
  "schema": "anticloud.tier-bench/1",
  "project": "CANLABCORE",
  "source": {
-  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\PSYCHOLOGY\\CANLABCORE\\UPSTREAM_CLONE",
   "git": {
-   "head": "21a490fb89acee54baca06dd0ca04a2297659e97",
-   "url": "https://github.com/nipreps/fmriprep",
-   "branch": "master",
-   "committed_at": "",
-   "sha_verified_from": "GitHub API substitute swap 2026-10-12 | unified 2026-10-14 (API-exists + content/clone anchor)"
+   "url": "https://github.com/canlab/CanlabCore",
+   "head": "5c4f6827d6937c3c16f2dc5f250fd0cc5889568d",
+   "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
+   "previous_substitute": "https://github.com/nipreps/fmriprep"
   }
  },
  "metrics": {

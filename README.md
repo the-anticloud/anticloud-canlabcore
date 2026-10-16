@@ -1,14 +1,12 @@
 # CANLABCORE
 
-> *fMRIPrep*: A Robust Preprocessing Pipeline for fMRI Data *fMRIPrep* is a *NiPreps (NeuroImaging PREProcessing toolS)* application (`www.nipreps.org `__) for the preprocessing of task-based and resting-state functional MRI (fMRI).
+> CanlabCore This repository contains core tools for MRI/fMRI/PET analysis from the Cognitive and Affective Neuorscience Lab (Tor Wager, PI) and our collaborators. Many of these functions are needed to run other toolboxes, e.g., the CAN lab’s multilevel mediation and Martin Lindquist’s hemodynamic response estimation toolboxes. An introduction to the toolbox and its philosophy, along with walkthroughs and tutorials, can be found at canlab.github.io.
 
-**Category:** PSYCHOLOGY · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/nipreps/fmriprep · **Pinned commit:** `21a490fb89acee54baca06dd0ca04a2297659e97` · **Vendor:** Anticloud FZ LLE
-
-> **Note:** this package vendors `https://github.com/nipreps/fmriprep` as the implementation for the `CANLABCORE` slot. The vendored repository name differs from the package name; the pin above is the exact commit vendored here.
+**Category:** PSYCHOLOGY · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/canlab/CanlabCore · **Pinned commit:** `5c4f6827d6937c3c16f2dc5f250fd0cc5889568d` · **Vendor:** Anticloud FZ LLE
 
 ## What This Project Is
 
-*fMRIPrep*: A Robust Preprocessing Pipeline for fMRI Data *fMRIPrep* is a *NiPreps (NeuroImaging PREProcessing toolS)* application (`www.nipreps.org `__) for the preprocessing of task-based and resting-state functional MRI (fMRI).
+CanlabCore This repository contains core tools for MRI/fMRI/PET analysis from the Cognitive and Affective Neuorscience Lab (Tor Wager, PI) and our collaborators. Many of these functions are needed to run other toolboxes, e.g., the CAN lab’s multilevel mediation and Martin Lindquist’s hemodynamic response estimation toolboxes. An introduction to the toolbox and its philosophy, along with walkthroughs and tutorials, can be found at canlab.github.io.
 
 This is the upstream project, vendored at the pinned commit above and packaged offline-first. The 12 improvements Anticloud adds live in `anticloud/` and are described under *Anticloud Overlay* below. Every fact in this file traces to a file in this directory.
 
@@ -62,7 +60,7 @@ The upstream licence is preserved in `LICENSE` and `THIRD_PARTY_LICENSES/`. The 
 SHA3-256 of `BENCH.json`:
 
 ```
-d42413ad260bd5f3d57bc2782303df13f0b2ea5a82be46aca45e234676c5b590
+84b0595b3de934ceaa96a488f0d6506dfadb2682556d37e98308e602cf36047c
 ```
 
 Recompute the hash above and compare — any drift means the package has been tampered with and the seal is invalid. This is a self-assessment; no external audit has been performed and a SOC 2 / NIST independent audit is committed post-funding.
